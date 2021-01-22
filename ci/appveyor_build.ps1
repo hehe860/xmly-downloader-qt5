@@ -1,4 +1,4 @@
-if ("true" -eq $env:CI_WINDOWS) {
+if ("true" -eq $env:CI_WINDOWS) { 
     # Install Qt-static
     curl -LJO https://github.com/lkeegan/qt5-static/releases/download/5.14.2/qt5-static-win32.zip 
     7z x qt5-static-win32.zip
